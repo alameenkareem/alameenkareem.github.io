@@ -39,6 +39,36 @@ margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
 }
+.about {
+    color: #ff5733;
+    font-weight: bold;
+    font-size: 15px;
+}
+.hobby {
+    color: #ff5733;
+    font-weight: bold;
+    font-size: 24px;
+}
+.game {
+    font-size: 10;
+    background-color: whitesmoke;
+    line-height: 1.6;
+    color: #333;
+}
+#gaming {
+    background: white;
+    padding: 1px;
+    margin: 10px;
+    border-radius: 18px; 
+    overflow:hidden;
+}
+#gaming i {
+    display: block;
+    margin-bottom: 2px;
+}
+#gaming h2 {
+    margin-top: 0;
+}
 button{
     padding: 10px 20px;
     font-size: 16px;
