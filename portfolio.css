@@ -44,20 +44,25 @@ margin-bottom: 20px;
     font-weight: bold;
     font-size: 15px;
 }
+.about1 {
+    color: #ff5733;
+    font-weight: bold;
+    font-size: 30px;
+}
 .hobby {
     color: #ff5733;
     font-weight: bold;
     font-size: 24px;
 }
 .game {
-    font-size: 10;
+    font-size: 20px;
     background-color: whitesmoke;
     line-height: 1.6;
     color: #333;
 }
 #gaming {
     background: white;
-    padding: 1px;
+    padding: 20px;
     margin: 10px;
     border-radius: 18px; 
     overflow:hidden;
@@ -69,7 +74,59 @@ margin-bottom: 20px;
 #gaming h2 {
     margin-top: 0;
 }
-button{
+.learning-journey {
+    text-align: center;
+    margin: 50px 0;
+}
+.learning-journey h2 {
+    color: #e63946;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+.journey-grid {
+    display: grid;
+    grid-template-columns: 
+    repeat(2, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.journey-card {
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px;
+    rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s 
+    ease, box-shadow 0.3s ease;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.journey-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 20px
+    rgba(0, 0, 0, 0.25)
+}
+.journey-card i {
+    font-size: 50px;
+    color: #ff5733;
+    margin-bottom: 12px;
+}
+.journey-card h3 {
+    margin: 20px 0;
+    font-size: 25px;
+    color: #333;
+    font-weight: bold;
+}
+.journey-card p {
+    font-size: 20px;
+    color: #666;
+}
+button {
     padding: 10px 20px;
     font-size: 16px;
     background: #007bff;
